@@ -15,12 +15,12 @@ public class Naukri {
 		c1.findElement(By.xpath("//input[contains(@placeholder,'Enter your active Email ID / Username')]")).click();// xpath
 		Thread.sleep(1000);
 		c1.findElement(By.xpath("//input[contains(@placeholder,'Enter your active Email ID / Username')]"))
-				.sendKeys("vinitchikate123@gmail.com"); // by
+				.sendKeys("vinitchikate@gmail.com"); // by
 		// contain
 		Thread.sleep(1000); // attribute
 		c1.findElement(By.xpath("//input[contains(@placeholder,'Enter your password')]")).click();
 		Thread.sleep(1000);
-		c1.findElement(By.xpath("//input[contains(@placeholder,'Enter your password')]")).sendKeys("Vinit@123");
+		c1.findElement(By.xpath("//input[contains(@placeholder,'Enter your password')]")).sendKeys("Vinit@5555");
 		Thread.sleep(1000);
 		c1.findElement(By.xpath("(//button[contains(text(),'Login')])[1]")).click();// xpath by group contains
 	}
